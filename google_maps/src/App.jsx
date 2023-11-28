@@ -6,7 +6,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: (
-      <div>
+      <div className="w-full">
         <Map1 />
       </div>
     ),
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
 ]);
 function App() {
   return (
-    <div style={{ height: "100vh" }}>
+    <div className="font-roboto w-ful">
       <Navbar />
       <RouterProvider router={router} />
     </div>
